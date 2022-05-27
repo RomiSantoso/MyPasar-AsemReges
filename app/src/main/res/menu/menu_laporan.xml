@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/absensi"
+        android:title="Absensi"
+        android:icon="@drawable/item_menu"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/peralatan"
+        android:title="Peralatan"
+        android:icon="@drawable/item_menu"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/logsheet"
+        android:title="Logsheet"
+        android:icon="@drawable/item_menu"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/listrik"
+        android:title="Listrik"
+        android:icon="@drawable/item_menu"
+        app:showAsAction="never"/>
+</menu>
