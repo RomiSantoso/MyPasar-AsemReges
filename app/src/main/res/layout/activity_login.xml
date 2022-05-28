@@ -8,8 +8,9 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="187dp"
-        android:layout_height="117dp"
+        android:layout_width="376dp"
+        android:layout_height="213dp"
+        android:layout_marginEnd="-50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo_pasar_jaya" />
@@ -53,7 +54,7 @@
         android:drawableLeft="@drawable/npp"
         android:drawablePadding="10dp"
         android:inputType="textPersonName"
-        android:text="776161"
+        android:hint="NPP"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -71,7 +72,7 @@
         android:drawablePadding="10dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="katasandi"
+        android:hint="Kata Sandi"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/npp" />
 
